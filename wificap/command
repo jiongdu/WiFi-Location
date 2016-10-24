@@ -1,0 +1,10 @@
+#!/bin/bash
+ifconfig wlan8 down
+iwconfig wlan8 mode monitor
+ifconfig wlan8 up
+iwconfig wlan8 channel 11
+
+
+
+
+

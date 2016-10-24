@@ -1,0 +1,10 @@
+./command ---- set usb card to monitor mode. 
+./period ----- change usb card's channel periodly.
+cd src
+make 
+./wificap -i wlan(x) -h ipaddrs
+
+Additionally, the outer Makefile is used to compile the wificap in Openwrt. You can also test wificap in Openwrt.
+
+
+
